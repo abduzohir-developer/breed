@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./shared.css">
+    <link rel="stylesheet" href="./shared.css" />
 
-    <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./contact.css">
-    
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./contact.css" />
   </head>
   <body>
     <!-- header secton -->
@@ -41,36 +40,50 @@
             <li class="main-navigation_item">
               <a href="#">Sheriklarim</a>
             </li>
+            <li class="main-navigation_item">
+              <a href="./contact.html">Boglanish</a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
     <!-- header section -->
-     <div class="container">
+    <div class="container">
       <section class="contact">
-        <div class="section-title">
-          Men bilan boglaning
-        </div>
+        <div class="section-title">Men bilan boglaning</div>
         <form action="/server.php" method="get">
-         <textarea rows="20" placeholder="Xabaringizni kiritin" ></textarea>
-         <input type="text" placeholder="Ismingizni kiriting" name="firstname">
-         <input type="email"  placeholder="Emailingizni kiritin" name="email">
-         <input type="text" placeholder="Xat mazmuni" name="subject">
-         <button class="button" type="submit">Xabar jonatish </button>
+          <textarea rows="10" placeholder="Xabaringizni kiritin"></textarea>
+          <div class="half-row contact-firstname">
+            <input
+              type="text"
+              placeholder="Ismingizni kiriting"
+              name="firstname"
+            />
+          </div>
+          <div class="half-row contact-email">
+            <input
+              type="email"
+              placeholder="Emailingizni kiritin"
+              name="email"
+            />
+          </div>
+
+          <input type="text" placeholder="Xat mazmuni" name="subject" />
+          <button class="button" type="submit">Xabar jonatish</button>
         </form>
       </section>
-     </div>
+    </div>
     <!-- Footer section -->
     <footer>
-      <nav>
-        <ul>
-          <li><a href="#">Asosiy</a></li>
-          <li><a href="#">Men haqimda</a></li>
-          <li><a href="#">Xizmatlarim</a></li>
-          <li><a href="#">Mijozlar</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Sheriklar</a></li>
+      <nav class="main-navigation">
+        <ul class="main-navigation_items">
+          <li class="main-navigation_item"><a href="#">Asosiy</a></li>
+          <li class="main-navigation_item"><a href="#">Men haqimda</a></li>
+          <li class="main-navigation_item"><a href="#">Xizmatlarim</a></li>
+          <li class="main-navigation_item"><a href="#">Mijozlar</a></li>
+          <li class="main-navigation_item"><a href="#">Portfolio</a></li>
+          <li class="main-navigation_item"><a href="#">Blog</a></li>
+          <li class="main-navigation_item"><a href="#">Sheriklar</a></li>
         </ul>
       </nav>
     </footer>

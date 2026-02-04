@@ -40,20 +40,20 @@
   text-transform: uppercase;
 }
 .introduction {
-  margin-top: 20px;
-  font-size: 60px;
+  margin-top: 1.25rem;
+  font-size: 3.75rem;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   color: #05364e;
 }
 .position {
   color: #05364e;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .action {
-  margin-top: 30px;
+  margin-top:1.87rem;
   border: none;
   background-color: #1c44e4;
   color: white;
